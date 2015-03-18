@@ -12,4 +12,12 @@ class UsersController < ApplicationController
     end
   end
 
+  def unlock
+    what = ENV['COMMAND']
+    ap what
+    if !what.nil?
+      system(what);
+    end
+  end
+
 end
