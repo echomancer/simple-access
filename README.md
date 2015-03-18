@@ -30,6 +30,7 @@ Learn more about [Installing Rails](http://railsapps.github.io/installing-rails.
 
 Getting Started
 ---------------
+Make a copy of the .env.example to .env and then fill in the values with valid ones for your project.
 
 Documentation and Support
 -------------------------
