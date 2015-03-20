@@ -14,9 +14,10 @@ class UsersController < ApplicationController
 
   def unlock
     what = ENV['COMMAND']
-    ap what
+    @success = false
     if !what.nil?
       system(what);
+      @success = true
     end
   end
 

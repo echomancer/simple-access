@@ -1,3 +1,6 @@
 .container
 	.row.text-center 
-		%h3 MAGIC HAPPENED
+		- if @success
+			%h3 Command executed
+		- else
+			%h3 Did nothing check command
